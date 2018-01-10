@@ -6,34 +6,57 @@ git add Nombre-> Agregar al archivo a la area de trabajo.
 
 git commit -> hace un commit
 
-git config --global user.email contact@gmail.com
-
-git config --global user.name Daniel Velasquez
-
 git log ->  para ver todos los commit
 
 git checkout -- index.html -> revertir los cambios de los archi
 
 git diff index.html -> ver diferencias
 
-.gitignore -> carpeta para ignorar archivos
-
 git commit -m " He agregado tatata.... " -> Este es el commit completo.
-
-git branch -> para mirar los branches
-
-git branch nombre -> crear rama.
 
 git checkout nombre -> rama a la que quiere cambiarse.
 
 git add . -> agrega todos los archivos de un solo
 
-git remote add origin "ruta" -> es para dar la ruta para luego subirse.
-
 git push -u origin master -> subir.
 
 git checkout hash -> para ir a cualquier version
 
+git fetch origin -> Solo recupera la informacion.
+
+git merge origin/master -> lo fusiona con el repositorio local 
+
+git clone http://blablabla -> Clona un repositorio, se hace primeramente comunmente.
+
+//*****************Notas****************************************
+
+.gitignore -> carpeta para ignorar archivos
+
+git pull ... = fetch + merge.
+
+//**************** Crear perfil*************************************
+
+git config --global user.email contact@gmail.com
+
+git config --global user.name Daniel Velasquez
+
+//***************branch*******************************************
+
+git branch -> para mirar los branches
+
+git branch nombre -> crear rama.
+
+git branch -d nombre -> Elimina la rama 
+
+//**************** Remote ****************************************
+
 git remote -v -> para ver los remotes agregados
 
+git remote rename nombre nombre2 -> cambia el nombre del remote.
+
+git remote show origin -> mas informacion del remote.
+
+git remote rm destination -> Elimina un remote. 
+
+git remote add origin "ruta" -> es para dar la ruta para luego subirse.
  
