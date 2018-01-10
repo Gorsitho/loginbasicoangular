@@ -1,0 +1,37 @@
+git init  -> Inicializa el codigo.
+
+git status  -> Estados de los paquetes (subidos, no subidos)
+
+git add "Nombre"-> Agregar al archivo a la area de trabajo.
+
+git commit -> hace un commit
+
+git config --global user.email "contact@gmail.com"
+
+git config --global user.name "Daniel Velasquez"
+
+git log ->  para ver todos los commit
+
+git checkout -- index.html -> revertir los cambios de los archi
+
+git diff index.html -> ver diferencias
+
+.gitignore -> carpeta para ignorar archivos
+
+git commit -m " He agregado tatata.... " -> Este es el commit completo.
+
+git branch -> para mirar los branches
+
+git branch "nombre" -> crear rama.
+
+git checkout "nombre" -> rama a la que quiere cambiarse.
+
+git add . -> agrega todos los archivos de un solo
+
+git remote add origin "ruta" -> es para dar la ruta para luego subirse.
+
+git push -u origin master -> subir.
+
+git checkout "hash" -> para ir a cualquier version
+
+ 
