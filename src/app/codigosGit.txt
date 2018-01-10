@@ -24,9 +24,9 @@ git checkout hash -> para ir a cualquier version
 
 git fetch origin -> Solo recupera la informacion.
 
-git merge origin/master -> lo fusiona con el repositorio local 
+git merge origin/master -> Fusiona la información del fetch con el repositorio local 
 
-git clone http://blablabla -> Clona un repositorio, se hace primeramente comunmente.
+git clone [URL repositorio] -> Clona un repositorio, se hace primeramente comunmente.
 
 //*****************Notas****************************************
 
@@ -38,7 +38,7 @@ git pull ... = fetch + merge.
 
 git config --global user.email contact@gmail.com
 
-git config --global user.name Daniel Velasquez
+git config --global user.name "NOMBRE DEL USUARIO"
 
 //***************branch*******************************************
 
@@ -58,5 +58,5 @@ git remote show origin -> mas informacion del remote.
 
 git remote rm destination -> Elimina un remote. 
 
-git remote add origin "ruta" -> es para dar la ruta para luego subirse.
+git remote add origin [URL] -> es para dar la ruta para luego subirse.
  
